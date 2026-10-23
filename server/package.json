@@ -1,0 +1,17 @@
+{
+  "name": "skimms-server",
+  "version": "2.5.1",
+  "description": "Smart Kavach for Intelligent Mine Monitoring - Backend Server (Team HEXACREW, Univ of Calcutta)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
